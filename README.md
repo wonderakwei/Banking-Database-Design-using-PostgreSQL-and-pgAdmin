@@ -1,6 +1,6 @@
 # Banking Database Design Using PostgreSQL and pgAdmin
 
-![Database Design](path/to/your/image.png)
+![Database Design](images/Overview.jpg)
 
 **Introduction:**
 This project focuses on designing a robust and efficient banking database system using PostgreSQL and pgAdmin. The primary goal is to optimize transaction management, ensuring both data integrity and performance.
