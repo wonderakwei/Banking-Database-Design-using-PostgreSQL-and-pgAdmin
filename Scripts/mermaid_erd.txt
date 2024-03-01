@@ -1,0 +1,32 @@
+are detailed entities in the comprehensive bank transaction database:
+
+Customers:
+Attributes: Customer ID (Primary Key), First Name, Last Name, Address, City, Gender, State, Country, Contact Information, Date of Birth, Social Security Number.
+Accounts:
+Attributes: Account Number (Primary Key), Customer ID (Foreign Key), Account Type (e.g., Savings, Checking), Balance, Account Status, Registration Date, Open Date, Closed Date.
+Transactions:
+Attributes: Transaction ID (Primary Key), Account Number (Foreign Key), Transaction Type (Deposit, Withdrawal, Transfer), Amount, Date and Time, Transaction Status.
+Transaction Details:
+Attributes: Transaction ID (Foreign Key), Description, Merchant/Payee, Category, Currency, Notes, 
+Transaction Status:
+Attributes: Status ID (Primary Key), Status Type (e.g., Pending, Completed, Failed), Description, Timestamp.
+Branches:
+Attributes: Branch ID (Primary Key), Branch Name, Location, Contact Information, Manager, Operating Hours.
+Employees:
+Attributes: Employee ID (Primary Key), Branch ID (Foreign Key), Name, Position, Contact Information, Hire Date, Qualification.
+ATMs:
+Attributes: ATM ID (Primary Key), Location, Status, Operating Hours, Supported Transactions.
+Cards:
+Attributes: Card Number (Primary Key), Customer ID (Foreign Key), Card Type (Debit, Credit), Expiry Date, Card Status.
+Account Holders:
+Attributes: Customer ID (Primary Key), Account Number (Foreign Key), Relationship Type (Primary Holder, Joint Holder), Start Date, End Date (for joint accounts).
+Loan Accounts:
+Attributes: Loan Account Number (Primary Key), Customer ID (Foreign Key), Loan Type, Principal Amount, Interest Rate, Term, Instalment Amount, and Status.
+Deposits:
+Attributes: Deposit ID (Primary Key), Customer ID (Foreign Key), Deposit Type (Fixed Deposit, Savings), Amount, Term, Interest Rate, Maturity Date, Status, etc.
+Bill Payments:
+Attributes: Payment ID (Primary Key), Customer ID (Foreign Key), Payee, Amount, Due Date, Payment Date, Status.
+Currency Exchange:
+Attributes: Exchange ID (Primary Key), Customer ID (Foreign Key), From Currency, To Currency, Amount, Exchange Rate, Date, Status.
+Alerts and Notifications:
+Attributes: Notification ID (Primary Key), Customer ID (Foreign Key), Message, Timestamp, Status, Delivery Method (Email, SMS).
